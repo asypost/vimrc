@@ -63,8 +63,9 @@ let NERDTreeChDirMode=1
 let NERDTreeWinSize=25
 " let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$', '\.git$']
-let g:NERDTreeDirArrowExpandable = '>'
-let g:NERDTreeDirArrowCollapsible = 'v'
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+let NERDTreeNodeDelimiter = "\t"
 
 " Plugin airline settings
 set t_Co=256
